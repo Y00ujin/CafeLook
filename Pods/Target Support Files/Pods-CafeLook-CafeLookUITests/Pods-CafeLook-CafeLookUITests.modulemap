@@ -1,0 +1,6 @@
+framework module Pods_CafeLook_CafeLookUITests {
+  umbrella header "Pods-CafeLook-CafeLookUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
