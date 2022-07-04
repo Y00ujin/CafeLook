@@ -89,6 +89,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A13E6C02872DA5D0004ECE4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6A13E6C12872DA7F0004ECE4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6A13E6C22872DA870004ECE4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A13E6C32872DAA80004ECE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A13E6C42872DAB60004ECE4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		6A59AFBC2872D4060046BDD8 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +149,11 @@
 		6A59AFC72872D4060046BDD8 /* CafeLook */ = {
 			isa = PBXGroup;
 			children = (
+				6A13E6C42872DAB60004ECE4 /* Cells */,
+				6A13E6C32872DAA80004ECE4 /* Models */,
+				6A13E6C22872DA870004ECE4 /* ViewControllers */,
+				6A13E6C12872DA7F0004ECE4 /* ViewModels */,
+				6A13E6C02872DA5D0004ECE4 /* Services */,
 				6A59AFC82872D4060046BDD8 /* AppDelegate.swift */,
 				6A59AFCA2872D4060046BDD8 /* SceneDelegate.swift */,
 				6A59AFCC2872D4060046BDD8 /* ViewController.swift */,
@@ -161,7 +201,6 @@
 				1AEAC4D65F8DBC640C93D5E6 /* Pods-CafeLookTests.debug.xcconfig */,
 				3637529A22F6BD02FEE2C494 /* Pods-CafeLookTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
