@@ -17,6 +17,8 @@
 		6A59AFE02872D4080046BDD8 /* CafeLookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A59AFDF2872D4080046BDD8 /* CafeLookTests.swift */; };
 		6A59AFEA2872D4080046BDD8 /* CafeLookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A59AFE92872D4080046BDD8 /* CafeLookUITests.swift */; };
 		6A59AFEC2872D4080046BDD8 /* CafeLookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A59AFEB2872D4080046BDD8 /* CafeLookUITestsLaunchTests.swift */; };
+		6A5B55102873FEB400126649 /* AreaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B550F2873FEB400126649 /* AreaCollectionViewCell.swift */; };
+		6A5B55122874097200126649 /* CafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B55112874097200126649 /* CafeTableViewCell.swift */; };
 		B9762E7494E98360055DB749 /* Pods_CafeLookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35E19097350E95BA0EB6BDD /* Pods_CafeLookTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		6A59AFE52872D4080046BDD8 /* CafeLookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeLookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A59AFE92872D4080046BDD8 /* CafeLookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeLookUITests.swift; sourceTree = "<group>"; };
 		6A59AFEB2872D4080046BDD8 /* CafeLookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeLookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6A5B550F2873FEB400126649 /* AreaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCollectionViewCell.swift; sourceTree = "<group>"; };
+		6A5B55112874097200126649 /* CafeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeTableViewCell.swift; sourceTree = "<group>"; };
 		B4009D186DE342873B68181F /* Pods-CafeLook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeLook.debug.xcconfig"; path = "Target Support Files/Pods-CafeLook/Pods-CafeLook.debug.xcconfig"; sourceTree = "<group>"; };
 		B4CF51BDE0438BDFB7F90BEE /* Pods-CafeLook-CafeLookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeLook-CafeLookUITests.debug.xcconfig"; path = "Target Support Files/Pods-CafeLook-CafeLookUITests/Pods-CafeLook-CafeLookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C35E19097350E95BA0EB6BDD /* Pods_CafeLookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeLookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +125,8 @@
 		6A13E6C42872DAB60004ECE4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				6A5B550F2873FEB400126649 /* AreaCollectionViewCell.swift */,
+				6A5B55112874097200126649 /* CafeTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -443,8 +449,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A59AFCD2872D4060046BDD8 /* MainViewController.swift in Sources */,
+				6A5B55122874097200126649 /* CafeTableViewCell.swift in Sources */,
 				6A59AFC92872D4060046BDD8 /* AppDelegate.swift in Sources */,
 				6A59AFCB2872D4060046BDD8 /* SceneDelegate.swift in Sources */,
+				6A5B55102873FEB400126649 /* AreaCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
