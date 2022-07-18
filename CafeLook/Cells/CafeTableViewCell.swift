@@ -14,12 +14,14 @@ class CafeTableViewCell: UITableViewCell {
     private let size = UIScreen.main.bounds
     
     lazy var cellBackgroundView = UIView().then{
+        $0.backgroundColor = .white
         $0.layer.borderColor = UIColor(red: 227/255, green: 221/255, blue: 218/255, alpha: 1).cgColor
         $0.layer.borderWidth = 2
         $0.layer.cornerRadius = size.height/29/2
-        $0.layer.shadowColor = UIColor.lightGray.cgColor
+        $0.layer.shadowColor = UIColor(red: 229/255, green: 229/255, blue: 229/255, alpha: 1).cgColor
         $0.layer.shadowOffset = CGSize(width: 0, height: 4)
-        $0.layer.cornerRadius = 13
+        $0.layer.shadowOpacity = 0.8
+        $0.layer.shadowRadius = 5.0
     }
     
     private lazy var labelContainerView = UIView()
@@ -69,7 +71,7 @@ class CafeTableViewCell: UITableViewCell {
         }
         
         labelContainerView.snp.makeConstraints {
-            $0.height.equalToSuperview().dividedBy(2)
+            $0.height.equalToSuperview().dividedBy(2.3)
             $0.left.equalToSuperview().offset(size.width/15)
             $0.width.equalToSuperview().dividedBy(1.4)
             $0.centerY.equalToSuperview()

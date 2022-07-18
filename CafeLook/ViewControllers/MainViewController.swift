@@ -112,7 +112,7 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView, layout  collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: size.width/6.696, height: size.height/29)
     }
 }
@@ -124,13 +124,11 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CafeTableViewCell.reuseId, for: indexPath) as! CafeTableViewCell
-        
         cell.selectionStyle = .none
-
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return size.height/9.666
+        return size.height/8.5
     }
 }
